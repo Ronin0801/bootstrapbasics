@@ -12,76 +12,81 @@
         <!-- Bootstrap CSS v5.2.1 -->
         <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
         <link rel="stylesheet" href="./bootstrap-4.5.3-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
 
     <body>
-        <nav
-            class="navbar navbar-expand-sm navbar-light bg-light"
-        >
-            <div class="container">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button
-                    class="navbar-toggler d-lg-none"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#collapsibleNavId"
-                    aria-controls="collapsibleNavId"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavId">
-                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#" aria-current="page"
-                                >Home
-                                <span class="visually-hidden">(current)</span></a
-                            >
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="dropdownId"
-                                data-bs-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                                >Dropdown</a
-                            >
-                            <div
-                                class="dropdown-menu"
-                                aria-labelledby="dropdownId"
-                            >
-                                <a class="dropdown-item" href="#"
-                                    >Action 1</a
-                                >
-                                <a class="dropdown-item" href="#"
-                                    >Action 2</a
-                                >
-                            </div>
-                        </li>
-                    </ul>
-                    <form class="d-flex my-2 my-lg-0">
-                        <input
-                            class="form-control me-sm-2"
-                            type="text"
-                            placeholder="Search"
-                        />
-                        <button
-                            class="btn btn-outline-success my-2 my-sm-0"
-                            type="submit"
-                        >
-                            Search
-                        </button>
-                    </form>
-                </div>
+        <div class="container my-2">
+            <h3>Default</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="container-fluid my-2">
+            <h3>Default</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+
+        <div class="container-fluid mt-3">
+            <h3>Auto Layout Column Widths</h3>
+            <div class="row">
+                <div class="col"><div class="custom-box"><p>Box 1</p></div></div>
+                <div class="col"><div class="custom-box"><p>Box 2</p></div></div>
+                <div class="col"><div class="custom-box"><p>Box 3</p></div></div>
+                <div class="col"><div class="custom-box"><p>Box 4</p></div></div>
             </div>
-        </nav>
+        </div>
+
+        <div class="container-fluid mt-3">
+            <h3>Auto Layout Column Widths</h3>
+            <div class="row">
+                <div class="col-2"><div class="custom-box"><p>Box 1</p></div></div>
+                <div class="col"><div class="custom-box"><p>Box 2</p></div></div>
+            </div>
+        </div>
+
+        <div class="container-fluid mt-3">
+            <h3>Auto Layout Column With Screen Breakpoints</h3>
+            <div class="row">
+                <div class="col-md-6 col-sm-12"><div class="custom-box"><p>Box 1</p></div></div>
+                <div class="col-md-6 col-sm-12"><div class="custom-box"><p>Box 2</p></div></div>
+            </div>
+        </div>
+
+        <div class="div container my-4">
+            <h3>Text Colors</h3>
+            <p class="text-primary">Primary Text Color</p>
+            <p class="text-secondary">Secondary Text Color</p>
+            <p class="text-success">Success Text Color</p>
+            <p class="text-danger">Danger Text Color</p>
+            <p class="text-warning">Warning Text Color</p>
+            <p class="text-info">Info Text Color</p>
+            <p class="text-light">Light Text Color</p>
+            <p class="text-dark">Dark Text Color</p>
+        </div>
         
+        <div class="container my-4 text-center">
+            <h3>Background colors</h3>
+            <div class="bg-primary">Primary BG Color</div>
+            <div class="bg-secondary">Secondary BG Color</div>
+            <div class="bg-success">Success BG Color</div>
+            <div class="bg-danger">Danger BG Color</div>
+            <div class="bg-warning">Warning BG Color</div>
+            <div class="bg-info">Info BG Color</div>
+            <div class="bg-light">Light BG Color</div>
+            <div class="bg-dark">Dark BG Color</div>
+        </div>
+
+        <div class="container my-4 text-center">
+            <h3>Border Colors</h3>
+            <div class="border border-primary">Primary Border Color</div>
+            <div class="border border-secondary">Secondary Border Color</div>
+            <div class="border border-success">Succes Border Color</div>
+            <div class="border border-danger">Danger Border Color</div>
+            <div class="border border-warning">Warning Border Color</div>
+            <div class="border border-info">Info Border Color</div>
+            <div class="border border-light">Light Border Color</div>
+            <div class="border border-dark">Dark Border Color</div>
+        </div>
         <!-- Bootstrap JavaScript Libraries -->
         <script href="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
         <script href="./bootstrap-4.5.3-dist/js/bootstrap.js"></script>
